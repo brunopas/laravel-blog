@@ -13,7 +13,7 @@
 
 ## About
 
-An amazing blog to share Laravel news and its ecosystem. LaraBlog is a web application developed in PHP Language and Laravel Framework.<br>
+An amazing blog to share Laravel news and its ecosystem. LaraBlog was developed using PHP Language and Laravel Framework.<br>
 This is a non-profit project. All prototypes, software code, design and illustrations are created for educational purposes only.<br>
 Project developed during <a href="https://laracasts.com/series/laravel-8-from-scratch">"Laravel 8 From Scratch"</a> course by <a href="https://laracasts.com/">Laracasts</a>.
 
