@@ -48,7 +48,6 @@ create database laravel_blog
 Finally, run the initial migrations and seeders.
 ```
 php artisan migrate --seed
-
 ```
 
 ### File Uploading
