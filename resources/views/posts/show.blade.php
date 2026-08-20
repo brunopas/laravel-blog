@@ -36,7 +36,7 @@
                                 </g>
                             </svg>
 
-                            Back to Posts
+                            Back to posts
                         </a>
 
                         <div class="space-x-2">

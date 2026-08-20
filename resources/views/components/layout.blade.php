@@ -1,5 +1,6 @@
 <!doctype html>
-
+<html lang="en">
+<head>
 <title>LaraBlog</title>
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,14 +21,13 @@
         -webkit-line-clamp: 1;
     }
 </style>
+</head>
 
 <body style="font-family: Open Sans, sans-serif">
     <section class="px-6 py-8">
         <nav class="md:flex md:justify-between md:items-center">
             <div>
-                <a href="/">
-                    <img src="/images/logo.svg" alt="Laracasts Logo" width="165" height="16">
-                </a>
+                <a href="/" class="text-xl font-bold text-gray-900">LaraBlog</a>
             </div>
 
             <div class="mt-8 md:mt-0 flex items-center">
@@ -39,12 +39,12 @@
 
                         @admin
                             <x-dropdown-item href="/admin/posts">Dashboard</x-dropdown-item>
-                            <x-dropdown-item href="/admin/posts/create">New Post</x-dropdown-item>
+                            <x-dropdown-item href="/admin/posts/create">New post</x-dropdown-item>
                         @endadmin
 
                         <x-dropdown-item href="#" x-data="{}"
                             @click.prevent="document.querySelector('#logout-form').submit()">
-                            Log Out
+                            Log out
                         </x-dropdown-item>
 
                         <form name="logout-form" id="logout-form" method="POST" action="/logout" class="hidden">
@@ -53,13 +53,13 @@
                     </x-dropdown>
                 @else
                     <a href="/register" class="text-xs font-bold uppercase">Register</a>
-                    <a href="/login" class="ml-6 text-xs font-bold uppercase">Log In</a>
+                    <a href="/login" class="ml-6 text-xs font-bold uppercase">Log in</a>
                 @endauth
 
 
                 <a href="#newsletter"
                     class="bg-blue-500 ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-5">
-                    Subscribe for Updates
+                    Subscribe for updates
                 </a>
             </div>
         </nav>
@@ -107,3 +107,4 @@
 
     <script src="//unpkg.com/alpinejs" defer></script>
 </body>
+</html>

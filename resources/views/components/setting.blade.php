@@ -12,13 +12,13 @@
             <ul>
                 <li>
                     <a href="/admin/posts" class="{{ request()->is('admin/posts') ? 'text-blue-500' : '' }}">
-                        All Posts
+                        All posts
                     </a>
                 </li>
                 <li>
                     <a href="/admin/posts/create"
                         class="{{ request()->is('admin/posts/create') ? 'text-blue-500' : '' }}">
-                        New Post
+                        New post
                     </a>
                 </li>
             </ul>
